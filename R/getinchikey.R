@@ -1,6 +1,7 @@
 getinchikey<-function(getCAS)
 {
   ###CAS: 328-50-7
+  ## To call the function getinchikey("CAS: 328-50-7")
   getCAS1<-stringr::str_replace(getCAS,pattern='CAS:',replacement ="")
   getCAS2<-stringr::str_trim(getCAS1)
   ################################

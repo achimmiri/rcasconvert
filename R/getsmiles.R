@@ -1,4 +1,4 @@
-PuCAStoOI<-function(getCAS)
+getsmiles<-function(getCAS)
 {
   ###CAS: 328-50-7
   getCAS1<-stringr::str_replace(getCAS,pattern='CAS:',replacement ="")
